@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.List;
 
-public class PrimeFactor extends Factor {
+public class PrimeFactor implements Factor {
 
     private List<Long> getPrimeFactors(long number) throws InvalidNumberException{
         if (number < 1) {
